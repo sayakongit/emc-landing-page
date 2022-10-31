@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.7.0/tailwind.min.css">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/utilities.css" />
     <link
@@ -21,12 +22,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Welcome to BizExplore</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.theme.default.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" crossorigin="anonymous" />
+
+    <title>Welcome to EMC</title>
   </head>
   <body id="home">
     <header class="hero">
@@ -34,23 +42,24 @@
 
       <div id="navbar" class="navbar top">
         <h1 class="logo">
-          <a href="#home"><span class="text-primary"><i class="fas fa-chart-pie"></i> Biz</span
-            >Explore</a>
+          <a href="#home"><span class="text-primary"><i class="fas fa-chart-pie"></i> Ease</span
+            >MyComplience</a>
         </h1>
         <nav>
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#cases">Cases</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#price">Pricing</a></li>
+            <li><a href="#testimonial">Testimonials</a></li>
+            <li><a href="#faq">FAQs</a></li>
+            <li><a href="">Guides</a></li>
           </ul>
         </nav>
       </div>
 
       <div class="content">
-        <h1>The Sky Is The Limit</h1>
-        <p>We provide world class business solutions</p>
+        <h1>Thinking about how to Incorporate a company in India?</h1>
+        <p>Look no further. Flookup.com/Incorp is a neo consulting platform which leverages technology to take care of all your compliances (including incorporation) while you build your business. Leave your legal worries aside. </p>
         <a href="#about" class="btn">Read More</a>
       </div>
     </header>
@@ -59,34 +68,67 @@
 
     <main>
       <section id="about" class="icons bg-light">
+        <h2>How does it work?</h2>
         <div class="flex-items">
-          <div>
-            <i class="fas fa-university fa-2x"></i>
-            <h3>Investment Banking</h3>
+          <div class="step-item">
+            <div class="step-count">
+              1
+            </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
-              consequuntur magnam tempora illo est assumenda enim repellat
-              numquam voluptas ullam!
+              We have pre-made options and structures available for you. Select the most suitable option for you.
             </p>
           </div>
-          <div>
-            <i class="fas fa-book-reader fa-2x"></i>
-            <h3>Portfolio Manager</h3>
+          <div class="step-item">
+            <div class="step-count">
+              2
+            </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
-              consequuntur magnam tempora illo est assumenda enim repellat
-              numquam voluptas ullam!
+              If still in doubt, you can: <br>
+              a) Either answer a few questions about your business; <br>
+              b) or talk to one of our experts. <br>
+              Accordingly, our platform shall recommend the structure suitable to your business. Ofcourse, the decision is always yours!
+              
             </p>
           </div>
-          <div>
-            <i class="fas fa-pencil-alt fa-2x"></i>
-            <h3>Tax & Custodial</h3>
+          <div class="step-item">
+            <div class="step-count">
+              3
+            </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
-              consequuntur magnam tempora illo est assumenda enim repellat
-              numquam voluptas ullam!
+              Select the plan based on your requirements
             </p>
           </div>
+        </div>
+        <div class="flex-items">
+          <div class="step-item">
+            <div class="step-count">
+              4
+            </div>
+            <p>
+              Pay 20% price of the plan as an advance.
+            </p>
+          </div>
+          <div class="step-item">
+            <div class="step-count">
+              5
+            </div>
+            <p>
+              Start by uploading your documents and filling up the details required, our platform will guide you through it
+            </p>
+          </div>
+          <div class="step-item">
+            <div class="step-count">
+              6
+            </div>
+            <p>
+              Post-verification, our team will take care of the registration process and timely updates will be posted on the dashboard (access shall be given once documents and information is submitted). You can also select from our add-on services.
+            </p>
+          </div>
+        </div>
+
+        <div class="a-info">
+          <h4>And Voila! There you have it. A fully compliant legal entity structure in a foreign land.</h4>
+          <p>We believe that any business’ main priority should be its quality of service and a unique connection with the customer. So, you can go and focus on the more important aspects while we handle all your incorporation and compliance needs..</p>
         </div>
       </section>
 
@@ -103,14 +145,9 @@
             <div class="column-2 bg-primary">
               <h4>- - What you are looking for</h4>
               <h2>We provide bespoke solutions</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                reiciendis illum explicabo quae nostrum delectus, unde provident
-                nisi optio sunt voluptatum aspernatur itaque dolore, a et. Sit
-                repellendus voluptate vel.
-              </p>
-              <a href="#" class="btn btn-outline">
-                Read More
+              <p>Our easy-to-use and integrated solution will help you eliminate numerous costs and streamline your whole incorporation process and the maintenance and administration of the business post incorporation</p>
+              <a href="#" class="btn btn-outline show-modal">
+                About Us
                 <i class="fas fa-chevron"></i>
               </a>
             </div>
@@ -118,157 +155,314 @@
         </div>
       </section>
 
-      <!-- Cases  -->
-
-      <section id="cases" class="cases flex-grid section-padding">
-        <header class="section-header">
-          <h4>This is what we do</h4>
-          <h2>Business Cases</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-            explicabo officia nam perferendis nemo. Hic expedita quaerat dolore
-            quibusdam eius.
-          </p>
-        </header>
-        <div class="row">
-          <div class="column">
-            <a
-              href="img/cases/cases1.jpg"
-              data-lightbox="cases"
-              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-            explicabo officia nam"
-            >
-              <img src="img/cases/cases1.jpg" alt="" />
-            </a>
-            <a
-              href="img/cases/cases2.jpg"
-              data-lightbox="cases"
-              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-            explicabo officia nam"
-            >
-            <img src="img/cases/cases2.jpg" alt="" />
-            </a>
-          </div>
-          <div class="column">
-            <a
-            href="img/cases/cases3.jpg"
-            data-lightbox="cases"
-            data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-          explicabo officia nam"
-          >
-            <img src="img/cases/cases3.jpg" alt="" />
-          </a>
-          <a
-            href="img/cases/cases4.jpg"
-            data-lightbox="cases"
-            data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-          explicabo officia nam"
-          >
-          <img src="img/cases/cases4.jpg" alt="" />
-          </a>
-          </div>
-          <div class="column">
-            <a
-            href="img/cases/cases5.jpg"
-            data-lightbox="cases"
-            data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-          explicabo officia nam"
-          >
-            <img src="img/cases/cases5.jpg" alt="" />
-          </a>
-          <a
-            href="img/cases/cases6.jpg"
-            data-lightbox="cases"
-            data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-          explicabo officia nam"
-          >
-          <img src="img/cases/cases6.jpg" alt="" />
-          </a>
-          </div>
-          <div class="column">
-            <a
-            href="img/cases/cases7.jpg"
-            data-lightbox="cases"
-            data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-          explicabo officia nam"
-          >
-            <img src="img/cases/cases7.jpg" alt="" />
-          </a>
-          <a
-            href="img/cases/cases8.jpg"
-            data-lightbox="cases"
-            data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-          explicabo officia nam"
-          >
-          <img src="img/cases/cases8.jpg" alt="" />
-          </a>
-          </div>
-        </div>
-      </section>
-
-      <!-- Blogs  -->
-
-      <section id="blog" class="blog flex-columns flex-reverse">
-        <div class="row">
-          <div class="column">
-            <div class="column-1">
-              <img src="img/home/blog.jpg" alt="People" />
+      <div id="price" class="bg-light">
+        <h2 class="p-title">Pricing</h2>
+        <div class="card-flex">
+          <div class="inc-price">
+            <h1>$ 1999/-</h1>
+            <h5>$ 2500/-</h5>
+            <div class="ic-details">
+              <h4>Incorporation</h4>
+              <h2>Private Limited Company</h2>
+              <div class="include-flex">
+                <i class="fa-solid fa-check"></i> Includes relevant statutory registrations
+              </div>
+              <div class="include-flex">
+                <i class="fa-solid fa-check"></i> Includes DSC
+              </div>
             </div>
           </div>
-          <div class="column">
-            <div class="column-2 bg-secondary">
-              <h4>- - May 10 2021</h4>
-              <h2>Blog Post One</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                reiciendis illum explicabo quae nostrum delectus, unde provident
-                nisi optio sunt voluptatum aspernatur itaque dolore, a et. Sit
-                repellendus voluptate vel.
-              </p>
-              <a href="blog.html" class="btn btn-outline">
-                Read Our Blog
-                <i class="fas fa-chevron"></i>
-              </a>
+          <div class="inc-price">
+            <h1>$ 1499/-</h1>
+            <h5>$ 2000/-</h5>
+            <div class="ic-details">
+              <h4>Incorporation</h4>
+              <h2>LLP</h2>
+              <div class="include-flex">
+                <i class="fa-solid fa-check"></i> Includes relevant statutory registrations
+              </div>
+              <div class="include-flex">
+                <i class="fa-solid fa-check"></i> Includes DSC
+              </div>
+            </div>
+          </div>
+          <div class="inc-price">
+            <h1>$ 1499/-</h1>
+            <h5>$ 2000/-</h5>
+            <div class="ic-details">
+              <h4>Incorporation</h4>
+              <h2>Trust</h2>
+              <div class="include-flex">
+                <i class="fa-solid fa-check"></i> Includes relevant statutory registrations
+              </div>
+
+            </div>
+          </div>
+          <div class="inc-price">
+            <h1>$ 4000/-</h1>
+            <h5>$ 5500/-</h5>
+            <div class="ic-details">
+              <h4>Incorporation</h4>
+              <h2>Trust + AIF registration</h2>
+              <div class="include-flex">
+                <i class="fa-solid fa-check"></i> Includes relevant statutory registrations
+              </div>
             </div>
           </div>
         </div>
-      </section>
 
-      <!-- Team  -->
 
-      <section id="team" class="team section-padding">
-        <header class="section-header">
-          <h4>Who we are</h4>
-          <h2>Our Professional Team</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-            explicabo officia nam perferendis nemo. Hic expedita quaerat dolore
-            quibusdam eius.
-          </p>
-        </header>
+          <div class="max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8 flex flex-col">
+            
+            <div class="text-center">
+              <h3 class="text-2xl sm:text-3xl leading-normal font-extrabold tracking-tight text-gray-900">
+                Choose your <span class="text-primary">Plan</span>
+              </h3>
+              
+            </div>
+        
+            <div class="mt-10">
+              <ul class="sm:grid sm:grid-cols-2 md:grid-cols-3 sm:col-gap-10 sm:row-gap-10">
+                
+                <li class="p-5 pb-6 text-center">
+                  <div class="flex flex-col items-center">
+                  <div class="flex items-center">
+                    <span class="mt-2 mb-4 mr-2 text-5xl leading-6 text-gray-900 font-bold">
+                        $1199
+                      </span>
+                    <span class=" text-xl leading-6 text-gray-900 font-bold">
+                        /year
+                      </span>
+                   </div>
+                  
+                    <ul class="my-6">
+                        <li class="my-1 text-base text-xl leading-6 text-gray-700">
+                          Get your business a Virtual Office address
+                        </li>
+                      </ul>
+                  </div>
+                </li>
+                <li class="p-5 pb-6 text-center">
+                  <div class="flex flex-col items-center">
+                  <div class="flex items-center">
+                    <span class="mt-2 mb-4 mr-2 text-5xl leading-6 text-gray-900 font-bold">
+                        $2799
+                      </span>
+                    <span class=" text-xl leading-6 text-gray-900 font-bold">
+                        /year
+                      </span>
+                   </div>
+                  
+                    <ul class="my-6">
+                        <li class="my-1 text-base text-xl leading-6 text-gray-700">
+                          Get your business a Resident Director
+                        </li>
+                      </ul>
+                  </div>
+                </li>
+                <li class="p-5 pb-6 text-center">
+                  <div class="flex flex-col items-center">
+                  <div class="flex items-center">
+                    <span class="mt-2 mb-4 mr-2 text-5xl leading-6 text-gray-900 font-bold">
+                        $699
+                      </span>
+                    <span class=" text-xl leading-6 text-gray-900 font-bold">
+                        /year
+                      </span>
+                   </div>
+                  
+                    <ul class="my-6">
+                        <li class="my-1 text-base text-xl leading-6 text-gray-700">
+                          First Auditor
+                        </li>
+                      </ul>
+                  </div>
+                </li>
+              </ul>
+              <div class="big-card">
 
-        <div class="flex-items">
-          <div>
-            <img src="img/team/person1.jpg" alt="" />
-            <h4>John Doe</h4>
-            <p>President</p>
+                <div class="big-price">
+                  <h2>$8999 <span>/year</span></h2>
+                  <h3>$849 <span>/month</span></h3>
+                </div>
+                <div class="big-desc">
+                  <h3>Maintenance and administration (For entire Financial Year)</h3>
+                  <div class="include-flex">
+                    <i class="fa-solid fa-check"></i> Accounting
+                  </div>
+                  <div class="include-flex">
+                    <i class="fa-solid fa-check"></i> Monthly, Quarterly and Annual compliances (Tax and Regulatory)
+                  </div>
+                  <div class="include-flex">
+                    <i class="fa-solid fa-check"></i> Payroll management
+                  </div>
+                  
+                </div>
+
+              </div>
+            </div>
+            
           </div>
-          <div>
-            <img src="img/team/person2.jpg" alt="" />
-            <h4>Wanda Maximoff</h4>
-            <p>Vice President</p>
-          </div>
-          <div>
-            <img src="img/team/person3.jpg" alt="" />
-            <h4>Stephen Strange</h4>
-            <p>Secretary</p>
+        
+        
+      </div>
+
+      <!-- Testimonial Section -->
+	<section class="testimonial-section" id="testimonial">
+		<div class="large-container">
+			<div class="sec-title">
+				<span>Testimonial</span>
+				<h2>What our clients say ?</h2>
+			</div>
+
+			<div class="testimonial-carousel owl-carousel owl-theme">
+				<!-- Testimonial Block -->
+				<div class="testimonial-block">
+					<div class="inner-box">
+						<div class="text">Why is this important? Because clients want to know the businesses they depend on for advice, are well managed in their own right.  Not only that but this event gives you the chance to give your back-office team</div>
+						<div class="info-box">
+							<div class="thumb"><img src="http://t.commonsupport.com/adro/images/resource/thumb-1.jpg" alt=""></div>
+							<h4 class="name">Mahfuz Riad</h4>
+							<span class="designation">Ui Designer & CEO</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Testimonial Block -->
+				<div class="testimonial-block">
+					<div class="inner-box">
+						<div class="text">Why is this important? Because clients want to know the businesses they depend on for advice, are well managed in their own right.  Not only that but this event gives you the chance to give your back-office team</div>
+						<div class="info-box">
+							<div class="thumb"><img src="http://t.commonsupport.com/adro/images/resource/thumb-1.jpg" alt=""></div>
+							<h4 class="name">Mahfuz Riad</h4>
+							<span class="designation">Ui Designer & CEO</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Testimonial Block -->
+				<div class="testimonial-block">
+					<div class="inner-box">
+						<div class="text">Why is this important? Because clients want to know the businesses they depend on for advice, are well managed in their own right.  Not only that but this event gives you the chance to give your back-office team</div>
+						<div class="info-box">
+							<div class="thumb"><img src="http://t.commonsupport.com/adro/images/resource/thumb-1.jpg" alt=""></div>
+							<h4 class="name">Mahfuz Riad</h4>
+							<span class="designation">Ui Designer & CEO</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="thumb-layer paroller">
+				<figure class="image"><img src="http://t.commonsupport.com/adro/images/resource/user-thumbs.png" alt=""></figure>
+			</div>
+		</div>
+	</section>
+	<!--End Testimonial Section -->
+
+  <section id="faq" class="bg-light">
+    <div class="f-container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="accordion">
+        <div class="accordion-item">
+          <button id="accordion-button-1" aria-expanded="false">
+            <span class="accordion-title">Why is the moon sometimes out during the day?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+              Ut tortor pretium viverra suspendisse potenti.
+            </p>
           </div>
         </div>
-      </section>
+        <div class="accordion-item">
+          <button id="accordion-button-2" aria-expanded="false">
+            <span class="accordion-title">Why is the sky blue?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+              Ut tortor pretium viverra suspendisse potenti.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-3" aria-expanded="false">
+            <span class="accordion-title">Will we ever discover aliens?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+              Ut tortor pretium viverra suspendisse potenti.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-4" aria-expanded="false">
+            <span class="accordion-title">How much does the Earth weigh?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+              Ut tortor pretium viverra suspendisse potenti.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-5" aria-expanded="false">
+            <span class="accordion-title">How do airplanes stay up?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+              Ut tortor pretium viverra suspendisse potenti.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-1" aria-expanded="false">
+            <span class="accordion-title">Why is the moon sometimes out during the day?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+              Ut tortor pretium viverra suspendisse potenti.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-2" aria-expanded="false">
+            <span class="accordion-title">Why is the sky blue?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+              Ut tortor pretium viverra suspendisse potenti.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
       <!-- Contact Us  -->
 
-      <section id="contact" class="contact flex-columns">
+      <!-- <section id="contact" class="contact flex-columns">
         <div class="row">
           <div class="column">
             <div class="column-1">
@@ -311,7 +505,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Footer  -->
 
@@ -322,15 +516,73 @@
           <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
           <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
         </div>
-        <p>Copyright &copy; 2021 - BizExplore</p>
+        <p>Copyright &copy; 2022 - EaseMyCompliance</p>
       </footer>
     </main>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>About the Company</h1>
+      <p>
+        Flookup.Incorp is the newest venture of Finance Lookup Advisors under the brand EaseMyCompliance. Finance Lookup Advisors (Flookup) specializes in providing financial services to companies operating a wide range of industries across the world. With the availability of a plethora of services, Flookup has helped several businesses stabilize, grow, and outperform. Some of the services we provide are listed below.
+      </p> 
+      <p>
+        Our product is an end-to-end product that specially focuses on clients who are incorporating a new business in India. Our industry focus helps in developing a rich understanding of clients'​ businesses and the insight, skills, and resources required to address industry-specific issues and opportunities. 
+      </p> 
+      <p>
+        Our experienced and customer-centric team consists of practiced Chartered Accountants, IITians, MBAs from Tier I Universities, lawyers, and various consultants, who believe in going the extra mile to ensure they provide quality services all year long.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
 
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js"
+    ></script>
+
+    <script>
+      (function($) {
+	
+        "use strict";
+        
+        // Testimonial Carousel
+        if ($('.testimonial-carousel').length) {
+          $('.testimonial-carousel').owlCarousel({
+            animateOut: 'slideOutDown',
+              animateIn: 'zoomIn',
+            loop:true,
+            margin:0,
+            nav:true,
+            smartSpeed: 300,
+            autoplay: 7000,
+            navText: [ '<span class="arrow-left"></span>', '<span class="arrow-right"></span>' ],
+            responsive:{
+              0:{
+                items:1
+              },
+              600:{
+                items:1
+              },
+              800:{
+                items:1
+              },
+              1024:{
+                items:1
+              }
+            }
+          });  		
+        }
+        
+      })(window.jQuery);
+    </script>
     <script src="./JS/script.js"></script>
     <script src="./JS/lightbox.min.js"></script>
   </body>
